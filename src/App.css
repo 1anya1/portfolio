@@ -1,4 +1,4 @@
-
+/* 
 
 .App-logo {
   height: 40vmin;
@@ -33,4 +33,15 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.homePage{
+  display: grid;
+ 
+
+}
+.myBio{
+  
+  background-color: black;
+  color: white;
 }

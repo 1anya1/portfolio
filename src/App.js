@@ -8,6 +8,7 @@ import {
 import Home from './Home'
 import Resume from './Resume'
 import Projects from './Projects'
+import Footer from './Footer'
 import { slide as Menu } from 'react-burger-menu'
 import {
   Collapse,
@@ -18,6 +19,7 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
+import styled from 'styled-components';
 
 const links = [
   { href: '/', text: 'Home' },
@@ -30,11 +32,9 @@ const links = [
 ];
 const createNavItem = ({ href, text}) => (
   <NavItem>
-    <NavLink href={href} className="text-info" style={{fontSize: 18, fontWeight: 'bold'}}>{text}</NavLink>
+    <NavLink href={href}  style={{fontSize: 18, color:'white', textAlign: 'center', padding: 10}}>{text}</NavLink>
   </NavItem>
 );
-
-
 
 
 
@@ -55,13 +55,16 @@ const createNavItem = ({ href, text}) => (
     });
   }
    render() {
+    
+
   return (
     <div>
-      <Navbar className="text-info" color="white" light expand="md">
-          <NavbarBrand href="/"><img className='logo' style={{width: 200}} src=''></img></NavbarBrand>
-          <NavbarToggler  onClick={this.toggle} />
+      <Navbar className="text-info" color="black" style={{backgroundColor: 'black'}} light expand="lg">
+          <NavbarBrand href="/"><img className='logo' style={{width: 100}} src='https://i.imgur.com/daKEcUA.png'></img></NavbarBrand>
+          <NavbarToggler  onClick={this.toggle}  style={{backgroundColor: 'white', color:'black'}}/>
           <Collapse  isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav style={{backgroundColor: 'black'}}
+            className="ml-auto" navbar>
               {links.map(createNavItem)}
             </Nav>
           </Collapse>
@@ -81,6 +84,7 @@ const createNavItem = ({ href, text}) => (
         </Switch>
       
     </Router>
+    <Footer />
     </div>
     );
   }

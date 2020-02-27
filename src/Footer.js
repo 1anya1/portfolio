@@ -3,7 +3,11 @@ import React from 'react'
 class Footer extends React.Component {
     render() {
         return (
-            <h1> Footer </h1>
+            <div style={{backgroundColor: 'black', color: 'white'}}>
+            <h1> Contact ME </h1>
+            <h3>LinkedIn</h3>
+            <h3>Git Hub</h3>
+            </div>
         )
     }
 }
