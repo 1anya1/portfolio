@@ -59,8 +59,8 @@ const createNavItem = ({ href, text}) => (
 
   return (
     <div>
-      <Navbar className="text-info" color="black" style={{backgroundColor: 'black'}} light expand="lg">
-          <NavbarBrand href="/"><img className='logo' style={{width: 100}} src='https://i.imgur.com/daKEcUA.png'></img></NavbarBrand>
+      <Navbar className="text-info" color="black" style={{backgroundColor: 'black', padding: '8px 20px'}} light expand="lg">
+          <NavbarBrand href="/"><img className='logo' style={{width: 70}} src='https://i.imgur.com/daKEcUA.png'></img></NavbarBrand>
           <NavbarToggler  onClick={this.toggle}  style={{backgroundColor: 'white', color:'black'}}/>
           <Collapse  isOpen={this.state.isOpen} navbar>
             <Nav style={{backgroundColor: 'black'}}

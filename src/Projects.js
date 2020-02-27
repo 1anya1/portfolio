@@ -1,18 +1,14 @@
 import React from 'react'
+import ProjectCarousel from './Carousel'
 
 class Projects extends React.Component {
     render(){
         return (
+            <div>
             <h1>My Projects go here 
-                lsfk;djfls;akdfjlasd
-                dfklasjhdflksajfnd;
-                dkjflasjfdhlkasjdnf
-                lkdsjfhlaksjdnflkasj
-                lkdjfhalksjfdhlkas
-                sndlkfjasdlfkjbnaslkdjfbnlaksdjbflkasjdf
-                sdnkfjbaslkfjdblaskdjf
-                sdkfjashblfdjkhb
             </h1>
+            <ProjectCarousel />
+            </div>
         )
     }
 }
