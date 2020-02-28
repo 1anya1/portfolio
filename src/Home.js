@@ -39,7 +39,7 @@ class Home extends React.Component {
                     <h1 className='aboutMe'>Let's Connect</h1>
                     <p className = 'connect'>If you have a project that you want to get started, 
                         think you need my help with something or just want to say hi, then drop me a line and lets connect</p>
-                    <Button  className='button' size="lg" style={{width:'80%', backgroundColor: 'white', color:'black', fontWeight: 'bold', display:'grid',margin:'0 auto'}}>EMAIL</Button>
+                    <Button  className='button' size="lg" style={{width:'80%', backgroundColor: 'white', color:'black', fontWeight: 'bold', display:'grid',margin:'0 auto'}}> <a  className= "projectButton" href="mailto:filatovaa@yahoo.com">EMAIL</a></Button>
                     <div className="pictureBio">
                     </div>
                 </div>
