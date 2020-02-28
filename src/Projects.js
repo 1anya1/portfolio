@@ -4,9 +4,10 @@ import ProjectCarousel from './Carousel'
 class Projects extends React.Component {
     render(){
         return (
-            <div>
-            <h1>My Projects go here 
-            </h1>
+            <div className='resume'>
+            <h1>What i've been up to</h1>
+            <h3>Here is a selection of some of my recent work</h3>
+            <h3>For more work visit me on GitHub </h3>
             <ProjectCarousel />
             </div>
         )
