@@ -3,13 +3,11 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Home from './Home'
 import Resume from './Resume'
 import Projects from './Projects'
 import Footer from './Footer'
-import { slide as Menu } from 'react-burger-menu'
 import {
   Collapse,
   Navbar,
@@ -59,7 +57,7 @@ const createNavItem = ({ href, text}) => (
 
   return (
     <div>
-      <Navbar className="text-info" color="black" style={{backgroundColor: 'black', padding: '8px 20px'}} light expand="lg">
+      <Navbar className="text-info" color="black" style={{backgroundColor: 'black', padding:'20px 40px 0'}} light expand="lg">
           <NavbarBrand href="/"><img className='logo' style={{width: 70}} src='https://i.imgur.com/daKEcUA.png'></img></NavbarBrand>
           <NavbarToggler className='toggler' onClick={this.toggle}  style={{backgroundImage: 'linear-gradient(to right top, #7b7b7b, #9a9a9a, #bbbbbb, #dcdcdc, #ffffff)', color:'black'}}/>
           <Collapse  isOpen={this.state.isOpen} navbar>
