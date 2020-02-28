@@ -103,9 +103,32 @@ li{
 .projectHome{
   padding: 0 0 50px 0;
 }
+.footer{
+  padding:0 0 20px 0;
+  text-align: center;
+  
+}
+.links{
+  display: grid;
+  grid-template-columns: .5fr .5fr;
+  width: 10%;
+  justify-content: center;
+  margin: 0 auto;
+  justify-items: center;
+  padding: 0 0 50px 0;
 
+}
+.projectButton{
+  color: black;
+}
+.projectButton:hover{
+  color: gray;
+  font-weight: bolder;
+  text-decoration: none;
+}
 @media screen and (max-width: 3000px){
   .homePage{
+    
      padding: 0 500px 100px 500px;
    }
  
@@ -163,6 +186,9 @@ li{
   .resumeImg{
     width: 500px;
   }
+  .links{
+    width: 20%;
+  }
 }
 @media screen and (max-width: 500px){
   .pictureBio{
@@ -196,6 +222,9 @@ li{
   .resumeImg{
     width: 280px;
     
+  }
+  .links{
+    width: 30%;
   }
  
  }
