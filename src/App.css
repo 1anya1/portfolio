@@ -49,3 +49,21 @@
   padding: 50px;
   background-color: black;
 }
+
+@media 
+.carousel{
+  width:400;
+  padding: 50;
+  display: grid;
+  margin:  5px auto;
+  filter: grayscale(50%);
+}
+@media screen and (max-width: 800px){
+  .carousel{
+    width:600;
+    padding: 50;
+    display: grid;
+    margin:  5px auto;
+    filter: grayscale(50%);
+  }
+} 

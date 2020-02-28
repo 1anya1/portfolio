@@ -6,11 +6,11 @@ class ProjectCarousel extends Component {
         return (
           <Carousel style={{backgroundColor:'black'}}>
   <Carousel.Item>
-    <img
-      // className="d-block w-100"
+    <img className='carousel'
+      className="d-block w-60"
       src="https://i.imgur.com/naHFEWX.png"
       alt="First slide"
-      style={{width:400, padding: 30, display: 'grid', margin: ' 5px auto', filter:'grayscale(50%)'}}
+      style={{ width: '60%', padding: 30, display: 'grid', margin: ' 5px auto', filter:'grayscale(50%)'}}
     />
     <Carousel.Caption style={{position:'static'}}>
       <h3>First slide label</h3>
@@ -18,8 +18,8 @@ class ProjectCarousel extends Component {
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item >
-    <img
-      // className="d-block w-100"
+    <img className='carousel'
+      // className="d-block w-70"
       src="https://i.imgur.com/cQkcfLW.png"
       alt="Third slide"
       style={{width:400, padding: 50, display: 'grid', margin: ' 5px auto', filter:'grayscale(50%)'}}
