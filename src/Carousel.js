@@ -6,7 +6,7 @@ import { Button } from "reactstrap";
 class ProjectCarousel extends Component {
   render() {
       return (
-          <Carousel style={{backgroundColor:'black',interval:10000}}>
+          <Carousel className='carousel slide'  style={{backgroundColor:'black',interval:10000, }}>
               <Carousel.Item>
                   <img className='carousel'
                       src="https://i.imgur.com/naHFEWX.png"

@@ -30,7 +30,7 @@ const links = [
 ];
 const createNavItem = ({ href, text}) => (
   <NavItem>
-    <NavLink href={href}  style={{fontSize: 18, color:'white', textAlign: 'center', padding: 10}}>{text}</NavLink>
+    <NavLink href={href}  style={{fontSize: 21, color:'white', textAlign: 'center', padding: 20}}>{text}</NavLink>
   </NavItem>
 );
 
@@ -57,9 +57,9 @@ const createNavItem = ({ href, text}) => (
 
   return (
     <div>
-      <Navbar className="text-info" color="black" style={{backgroundColor: 'black', padding:'20px 40px 0'}} light expand="lg">
+      <Navbar className="text-info" color="black" style={{backgroundColor: 'black', padding:'20px 40px 0'}}  expand="lg">
           <NavbarBrand href="/"><img className='logo' style={{width: 70}} src='https://i.imgur.com/daKEcUA.png'></img></NavbarBrand>
-          <NavbarToggler className='toggler' onClick={this.toggle}  style={{backgroundImage: 'linear-gradient(to right top, #7b7b7b, #9a9a9a, #bbbbbb, #dcdcdc, #ffffff)', color:'black'}}/>
+          <NavbarToggler className='navbar-dark' onClick={this.toggle}  style={{ backgroundColor: 'black', outlineStyle:'none', border: 'white .5px solid'}}/>
           <Collapse  isOpen={this.state.isOpen} navbar>
             <Nav style={{backgroundColor: 'black'}}
             className="ml-auto" navbar>
