@@ -15,7 +15,7 @@ class Home extends React.Component {
                         I enjoy all forms of design and use multiple creative outlets to express both my ideas and myself.
                          I am constantly gaining knowledge and inspiration in the design world both graphic and web-related. 
                          I enjoy learning and growing in my field and expressing myself through my work. </p>
-                         <img src='https://i.imgur.com/EDBgFhC.png' className='portrait'></img>
+                         <img  alt= '' src='https://i.imgur.com/EDBgFhC.png' className='portrait'></img>
                     </div>
                     <h1 className='aboutMe'>Technologies I've worked with recently:</h1>
 
