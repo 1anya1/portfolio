@@ -118,6 +118,13 @@ li{
   padding: 0 0 50px 0;
 
 }
+#link {
+  text-decoration: none;
+  color: rgb(218, 33, 64);
+}
+#link:hover {
+  color: white;
+}
 .projectButton{
   color: black;
 }
