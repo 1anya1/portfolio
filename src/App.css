@@ -120,7 +120,7 @@ li{
 }
 #link {
   text-decoration: none;
-  color: rgb(218, 33, 64);
+  color: rgba(218, 33, 64, 0.7);
 }
 #link:hover {
   color: white;
