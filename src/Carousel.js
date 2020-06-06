@@ -20,7 +20,7 @@ class ProjectCarousel extends Component {
                           <p>ReactJS, MongoDB, Express, HTML, CSS, Javascript, Heroku</p>
                           <p> The Foodie app allows users to create shopping lists tied to a user account. Lists can be shared between users.</p>
                          
-                          <Button className='button' size="lg" style={{width:'60%', backgroundColor: 'white', color:'black', fontWeight: 'bold', display:'grid',margin:'0 auto 50px'}}> <a  className='projectButton' href='https://foodie-list-app.herokuapp.com/'>Visit Site </a></Button>
+                          <Button className='button' size="lg" style={{width:'60%', backgroundColor: 'white', color:'black', fontWeight: 'bold', display:'grid',margin:'0 auto 50px'}}> <a  className='projectButton' href='https://foodie-list-app.herokuapp.com/' target="_blank">Visit Site </a></Button>
                          
                       </Carousel.Caption>
               </Carousel.Item>
@@ -36,7 +36,7 @@ class ProjectCarousel extends Component {
                     <h3 style={{paddingTop: 50}}>PLANTLY</h3>
                       <p> React, Ruby on Rails, ReactStrap, PostgreSQL, AJAX, JavaScript</p>
                       <p> Plantly is an app all about houseplants. Search for common names, learn how to recognize problems and track progress of your plants.</p>
-              <Button  className='button' size="lg" style={{width:'60%', backgroundColor: 'white', color:'black', fontWeight: 'bold', display:'grid',margin:'0 auto 50px'}}><a className='projectButton' href='https://foodie-list-app.herokuapp.com/'>Visit Site </a></Button>
+              <Button  className='button' size="lg" style={{width:'60%', backgroundColor: 'white', color:'black', fontWeight: 'bold', display:'grid',margin:'0 auto 50px'}}><a className='projectButton' href='http://plantly112.herokuapp.com/' target="_blank" >Visit Site </a></Button>
                     </Carousel.Caption>
                 </Carousel.Item>
              </Carousel>
