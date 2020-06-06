@@ -36,7 +36,11 @@ class ProjectCarousel extends Component {
                     <h3 style={{paddingTop: 50}}>PLANTLY</h3>
                       <p> React, Ruby on Rails, ReactStrap, PostgreSQL, AJAX, JavaScript</p>
                       <p> Plantly is an app all about houseplants. Search for common names, learn how to recognize problems and track progress of your plants.</p>
+<<<<<<< HEAD
               <Button  className='button' size="lg" style={{width:'60%', backgroundColor: 'white', color:'black', fontWeight: 'bold', display:'grid',margin:'0 auto 50px'}}><a className='projectButton' href="http://plantly112.herokuapp.com/" target="_blank">Visit Site </a></Button>
+=======
+              <Button  className='button' size="lg" style={{width:'60%', backgroundColor: 'white', color:'black', fontWeight: 'bold', display:'grid',margin:'0 auto 50px'}}><a className='projectButton' href='http://plantly112.herokuapp.com/' target="_blank" >Visit Site </a></Button>
+>>>>>>> 4f939d199ac38e88d20f6aa1bc67dd54950af7c9
                     </Carousel.Caption>
                 </Carousel.Item>
              </Carousel>
