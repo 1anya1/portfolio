@@ -11,9 +11,14 @@ class Home extends React.Component {
                     <h3 className='h3'>I'm a software engineer based in San Francisco, California. I have a passion for web design and love to create for mobile devices. </h3>
                     <h1 className='aboutMe'>About Me </h1>
                     <div className="pictureBio">
-                    <p className='bioCard'>I am a passionate creator of things on the web. I love to design my ideas thoughtfully, 
-                    then craft them into creative, yet user-friendly experiences. My background experience includes the latest development 
-                    approaches, including MVC framework, event-driven applications using AJAX, JSON, and Object-Oriented JavaScript. </p>
+                    <p className='bioCard'>I am a passionate creator of things on the web who enjoys all forms of
+                                            design. I love to plan my ideas thoughtfully, then craft them into
+                                            creative, yet user-friendly experiences. My technical background
+                                            includes the latest development approaches in programming, including
+                                            MVC framework, event-driven applications using AJAX, JSON, and
+                                            Object-Oriented JavaScript. I am an agile learner who enjoys problem-solving 
+                                            and picking up new skills and tools. 
+                    </p>
                          <img  alt= '' src='https://i.imgur.com/EDBgFhC.png' className='portrait'></img>
                     </div>
                     <h1 className='aboutMe'>Technologies I've worked with recently:</h1>
