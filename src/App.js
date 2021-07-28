@@ -20,8 +20,8 @@ import {
 
 const links = [
   { href: '/', text: 'Home' },
-  { href: 'projects', text: 'Projects' },
-  { href: 'resume', text: 'Resume' },
+  { href: '/projects', text: 'Projects' },
+  { href: '/resume', text: 'Resume' },
   
   
   
