@@ -20,7 +20,7 @@ class ProjectCarousel extends Component {
                           <p>ReactJS, MongoDB, Express, HTML, CSS, Javascript, Heroku</p>
                           <p> The Foodie app allows users to create shopping lists tied to a user account. Lists can be shared between users.</p>
                          
-                          <Button className='button' size="lg" style={{width:'60%', backgroundColor: 'white', color:'black', fontWeight: 'bold', display:'grid',margin:'0 auto 50px'}}> <a  className='projectButton' href='https://foodie-list-app.herokuapp.com/' target="_blank" rel="noopener noreferrer">Visit Site </a></Button>
+                          <Button className='button' size="lg" style={{width:'60%', backgroundColor: 'white', color:'black', fontWeight: 'bold', display:'grid',margin:'0 auto 50px'}}> <a  className='projectButton' href='https://foodie-application.herokuapp.com/' target="_blank" rel="noopener noreferrer">Visit Site </a></Button>
                          
                       </Carousel.Caption>
               </Carousel.Item>
